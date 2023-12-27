@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.pagination li {
+  width: 30px;
+  heigth: 30px;
+  border: 1px solid rgb(159, 159, 159);
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.3s ease;
+}
+.pagination li:hover {
+  color: red;
+  transition-delay: 100ms;
+}
+
